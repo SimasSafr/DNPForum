@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorUI
 build_property.RootNamespace = BlazorUI
-build_property.ProjectDir = C:\JetBrainsRiderProjects\DNP1RedditSimas\BlazorUI\
+build_property.ProjectDir = C:\Users\simas\OneDrive\Documents\GitHub\DNP1-Reddit\DNP1RedditSimas\BlazorUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\JetBrainsRiderProjects\DNP1RedditSimas\BlazorUI
+build_property.MSBuildProjectDirectory = C:\Users\simas\OneDrive\Documents\GitHub\DNP1-Reddit\DNP1RedditSimas\BlazorUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/App.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/CreatePost.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/CreatePost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/Home.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/Login.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/Signup.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/Signup.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/_Imports.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Shared/MainLayout.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9locippnay
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Shared/NavMenu.razor]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-im1vr98q65
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/Error.cshtml]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/_Host.cshtml]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/JetBrainsRiderProjects/DNP1RedditSimas/BlazorUI/Pages/_Layout.cshtml]
+[C:/Users/simas/OneDrive/Documents/GitHub/DNP1-Reddit/DNP1RedditSimas/BlazorUI/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

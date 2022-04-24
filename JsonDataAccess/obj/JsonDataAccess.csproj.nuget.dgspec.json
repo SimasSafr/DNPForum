@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj": {}
+    "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj": {}
   },
   "projects": {
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\Application.csproj": {
+    "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\simas\\.nuget\\packages\\",
-        "outputPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\obj\\",
+        "outputPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj"
               },
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\Contracts.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\Contracts.csproj"
               },
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -66,66 +66,14 @@
         }
       }
     },
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj",
-        "projectName": "ClassLibrary1",
-        "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj",
-        "packagesPath": "C:\\Users\\simas\\.nuget\\packages\\",
-        "outputPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\simas\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\Contracts.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\simas\\.nuget\\packages\\",
-        "outputPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,11 +88,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj"
               },
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj"
               }
             }
           }
@@ -177,14 +125,14 @@
         }
       }
     },
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj": {
+    "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\simas\\.nuget\\packages\\",
-        "outputPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -229,14 +177,14 @@
         }
       }
     },
-    "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj": {
+    "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
         "projectName": "JsonDataAccess",
-        "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
+        "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
         "packagesPath": "C:\\Users\\simas\\.nuget\\packages\\",
-        "outputPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\obj\\",
+        "outputPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -251,11 +199,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\Application.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Application\\Application.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Application\\Application.csproj"
               },
-              "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\Entities\\Entities.csproj"
+              "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj"
               }
             }
           }

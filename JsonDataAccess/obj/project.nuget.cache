@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "2LPkG80eRosS8oHL9ICBQcGNN5G9ovyH6p0qg0Yyt/SHv8gbcIY6uwNtEBD+9ijjv2rpmWnVhHBIoRTt+uaXsQ==",
-  "success": true,
-  "projectFilePath": "C:\\JetBrainsRiderProjects\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
+  "dgSpecHash": "767mVcBmCqHEv7rdwKGis/U+Kp++oidUHCahZv+NcnYjfsxGL/FdandxH3YofrME2Cpugj5IU/Z1yUghWSNkLQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\JsonDataAccess\\JsonDataAccess.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
