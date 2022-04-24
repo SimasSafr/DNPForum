@@ -1,0 +1,73 @@
+﻿@page "/Signup"
+@using BlazorUI.Authentication
+@inject IAuthService authService
+@inject NavigationManager navMgr
+@using Contracts.Services
+@using Entities.Models
+@inject IUserService userService
+<AuthorizeView>
+    <NotAuthorized>
+        <div class="card" style="width: 40rem; border: 0.1rem solid darkblue;">
+            <div class="form-group card-body">
+                <h3>Sign Up</h3>
+                <br/>
+                <div class="row">
+                    <label>Email address:</label>
+                    <div class="col-4">
+                        <input type="email" placeholder="Enter email" @bind="userName"/>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-4">
+                        <label>Password:</label>
+                        <div class="col-4">
+                            <input type="password" placeholder="Enter password" @bind="password"/>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+                @if (!string.IsNullOrEmpty(errorLabel))
+                {
+                    <div class="field">
+                        <label style="color: red">
+                            @errorLabel
+                        </label>
+                    </div>
+                }
+                <div class="field">
+                    <button class="button btn-dark" @onclick="CreateUserAsync">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <div>
+            <h3> You are already logged in, no need to sign up</h3>
+        </div>
+        
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private string userName;
+    private string password;
+    private string errorLabel;
+    
+    
+    private async Task CreateUserAsync()
+    {
+        errorLabel = "";
+        try
+        {
+            User newuser = new User(userName, password);
+            await userService.AddUserAsync(newuser);
+            navMgr.NavigateTo("/login");
+        }
+        catch (Exception e)
+        {
+            errorLabel = $"Error: {e.Message}";
+            
+        }
+    }
+}

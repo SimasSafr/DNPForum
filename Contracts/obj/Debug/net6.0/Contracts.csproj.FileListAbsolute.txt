@@ -1,0 +1,15 @@
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\Contracts.deps.json
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\Contracts.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\ref\Contracts.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\Contracts.pdb
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\Entities.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\bin\Debug\net6.0\Entities.pdb
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Contracts\obj\Debug\net6.0\Contracts.pdb

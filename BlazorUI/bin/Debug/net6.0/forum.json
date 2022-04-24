@@ -1,0 +1,26 @@
+{
+  "Users": [
+    {
+      "UserName": "123@gmail.com",
+      "Password": "123"
+    },
+    {
+      "UserName": "111@gmail.com",
+      "Password": "123"
+    }
+  ],
+  "Posts": [
+    {
+      "Title": "123",
+      "Body": "123",
+      "WrittenBy": "123@gmail.com",
+      "Id": 777
+    },
+    {
+      "Title": "123",
+      "Body": "123",
+      "WrittenBy": "123@gmail.com",
+      "Id": 777
+    }
+  ]
+}

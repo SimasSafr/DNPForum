@@ -1,0 +1,47 @@
+﻿@page "/"
+@page "/Home"
+@using Entities.Models
+@using Contracts.Services
+@inject IPostService postSerivce
+@inject NavigationManager navMgr
+
+<h3>@Initialize()</h3>
+<div>
+    <ul>
+        @foreach (var post in postdata)
+        {   
+            <div class="card" style="width: 18rem; border: 0.1rem solid darkblue;">
+                <div class="card-body">
+                    <h4>@post.Title</h4>
+                    <a>post by:</a>
+                    <a>@post.WrittenBy</a>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-dark" @onclick="() => GoToPost(post.Id)">
+                        Go To Post
+                    </button>
+                </div>
+            </div>
+            <br>
+        }
+    </ul>
+</div>
+@code {
+    private IEnumerable<Post> postdata;
+
+    private string Initialize()
+    {
+        Posts();
+        return "Posts: ";
+    }
+
+    private async Task Posts()
+    {
+        postdata = await postSerivce.GetAllPostsAsync();
+    }
+
+    private async Task GoToPost(int id)
+    {
+        navMgr.NavigateTo("/ActualPost/" + id);
+    }
+}

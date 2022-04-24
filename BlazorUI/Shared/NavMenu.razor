@@ -1,0 +1,62 @@
+﻿@using BlazorUI.Authentication
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Reddit But Worse</a>
+        <AuthorizeView>
+            <Authorized>
+                <div class="d-flex flex-row-reverse">
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <NavLink class="nav-link">
+                                    @context.User.Identity.Name
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="/CreatePost">
+                                    <span class="oi oi-signpost">&nbsp</span>Create Post
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="" @onclick="LogoutAsync">
+                                    <span class="oi oi-account-logout">&nbsp</span> Log Out
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="d-flex flex-row-reverse">
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="Login">
+                                    <span class="oi oi-account-login">&nbsp</span>Log In
+                                </NavLink>
+                            </li>
+                            <li class="nav-item">
+                                <NavLink class="nav-link" href="Signup">
+                                    <span class="oi oi-aperture">&nbsp</span>Sign Up
+                                </NavLink>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+    
+</nav>
+
+@code {
+
+    private async Task LogoutAsync()
+    {
+        await authService.LogoutAsync();
+        navMgr.NavigateTo("/home");
+    }
+}

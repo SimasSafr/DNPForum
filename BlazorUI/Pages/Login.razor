@@ -1,0 +1,70 @@
+﻿@page "/Login"
+@using BlazorUI.Authentication
+@inject IAuthService authService
+@inject NavigationManager navMgr
+
+<AuthorizeView>
+    <NotAuthorized>
+        <div class="card" style="width: 40rem; border: 0.1rem solid darkblue;">
+            <div class="form-group card-body">
+                <h3>Log In</h3>
+                <br>
+                <div class="row">
+                    <label>Email address:</label>
+                    <div class="col-4">
+                        <input type="email" placeholder="Enter email" @bind="userName"/>
+                    </div>
+                </div>
+                <br/>
+            
+                <div class="row">
+                    <div class="col-4">
+                        <label>Password:</label>
+                        <div class="col-4">
+                            <input type="password" placeholder="Enter password" @bind="password"/>
+                        </div>
+                    </div>
+                </div>
+         
+            
+                <br/>
+                @if (!string.IsNullOrEmpty(errorLabel))
+                {
+                    <div class="field">
+                        <label style="color: red">
+                            @errorLabel
+                        </label>
+                    </div>
+                }
+                <div class="field">
+                    <button class="button btn-dark" @onclick="LoginAsync">Log In</button>
+                </div>
+            </div>
+        </div>
+    </NotAuthorized>
+    <Authorized>
+        <div class="card">
+            <h3>You are already logged in @context.User.Identity.Name</h3>
+        </div>
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private string userName;
+    private string password;
+    private string errorLabel;
+
+    private async Task LoginAsync()
+    {
+        errorLabel = "";
+        try
+        {
+            await authService.LoginAsync(userName, password);
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            errorLabel = $"Error: {e.Message}";
+        }
+    }
+}

@@ -1,0 +1,17 @@
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Application.deps.json
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Application.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\ref\Application.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Application.pdb
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Contracts.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Entities.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Contracts.pdb
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\bin\Debug\net6.0\Entities.pdb
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\ref\Application.dll
+C:\JetBrainsRiderProjects\DNP1RedditSimas\Application\obj\Debug\net6.0\Application.pdb
