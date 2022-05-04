@@ -3,8 +3,9 @@ using Application.Contracts;
 using BlazorUI.Authentication;
 using BlazorUI.Data;
 using Contracts.Services;
-using JsonDataAccess;
 using Microsoft.AspNetCore.Components.Authorization;
+using RESTClient;
+using RESTClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,10 +15,8 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddScoped<AuthenticationStateProvider, SimpleAuthenticationStateProvider>();
 builder.Services.AddScoped<IAuthService, AuthServiceImpl>();
-builder.Services.AddScoped<IPostService, PostServiceImpl>();
-builder.Services.AddScoped<IUserService, UserServiceImpl>();
-builder.Services.AddScoped<IUserDAO, JsonUserDAO>();
-builder.Services.AddScoped<IPostDAO, JsonPostDAO>();
+builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<IPostService, PostHttpClient>();
 
 // Authorization
 builder.Services.AddAuthorization(options =>

@@ -17,7 +17,6 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0",
           "Contracts": "1.0.0",
           "Entities": "1.0.0"
         },
@@ -27,7 +26,6 @@
       },
       "Contracts/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0",
           "Entities": "1.0.0"
         },
         "runtime": {

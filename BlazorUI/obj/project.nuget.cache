@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MnencFozrxUb976iCUtYGh6Q0qvOgujYRuRELryZsVCPA70VCh38iCwetfI5UyapxQja4J6pxlAVDkwul2MbsQ==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\BlazorUI\\BlazorUI.csproj",
+  "dgSpecHash": "B91rbFvNBOMVG723TtDd6PP1YFULyuQm1W2Nm47fgCT12slgpGEeAdBcD2zD6mu8hwv30e3IkpNGUrNFMgpOYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimasClientAPI\\BlazorUI\\BlazorUI.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\ClassLibrary1\\ClassLibrary1.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

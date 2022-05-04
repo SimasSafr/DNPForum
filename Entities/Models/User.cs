@@ -1,4 +1,6 @@
-﻿namespace Entities.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Entities.Models;
 
 public class User
 {

@@ -9,7 +9,7 @@ public class Post
         WrittenBy = writtenBy;
         Id = id;
     }
-    
+
     public string Title { get; set; }
     public string Body { get; set; }
     public string WrittenBy { get; set; }

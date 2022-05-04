@@ -20,4 +20,9 @@ public class UserServiceImpl : IUserService
     {
         return await userDao.GetUserByUsernameAsync(username);
     }
+
+    public async Task<ICollection<User>> GetAllUsersAsync()
+    {
+        return await userDao.GetAllUsersAsync();
+    }
 }

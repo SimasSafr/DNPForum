@@ -15,6 +15,11 @@ public class JsonUserDAO : IUserDAO
         return await Task.FromResult(find);
     }
 
+    public async Task<ICollection<User>> GetAllUsersAsync()
+    {
+        return jsonCont.Forum.Users;
+    }
+
     private List<User> UserList()
     {
         List<User> users = jsonCont.Forum.Users.ToList();

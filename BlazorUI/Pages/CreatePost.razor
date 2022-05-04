@@ -63,8 +63,7 @@
         {
             AuthenticationState authState = await AuthState;
             ClaimsPrincipal user = authState.User;
-            int tempid = 777;
-            Post newpost = new Post(title, body, user.Identity.Name, tempid);
+            Post newpost = new Post(title, body, user.Identity.Name, default);
             await postService.AddPostAsync(newpost);
         
             navMgr.NavigateTo("/");

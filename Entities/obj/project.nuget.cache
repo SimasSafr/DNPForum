@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJgIjDm/TjxPJ/3yi5lnWSmNXYx3jbxszH5IakIiukjN6DI6JXmSKmFPjbVq3LyKGICn61Uak3oT0B9cNREcRA==",
+  "dgSpecHash": "e4UlaGJRaX6RML4dnlWvfcjOWGdlQW5eJoyo+yIMR0njRHEeAC1NVrrPD39shYwgGVwTFvJVJ9DhY7RGY4rNvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimas\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\simas\\OneDrive\\Documents\\GitHub\\DNP1-Reddit\\DNP1RedditSimasClientAPI\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

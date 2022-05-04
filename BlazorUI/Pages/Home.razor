@@ -5,39 +5,45 @@
 @inject IPostService postSerivce
 @inject NavigationManager navMgr
 
-<h3>@Initialize()</h3>
 <div>
     <ul>
-        @foreach (var post in postdata)
-        {   
-            <div class="card" style="width: 18rem; border: 0.1rem solid darkblue;">
-                <div class="card-body">
-                    <h4>@post.Title</h4>
-                    <a>post by:</a>
-                    <a>@post.WrittenBy</a>
-                    <br>
-                    <br>
-                    <button type="button" class="btn btn-dark" @onclick="() => GoToPost(post.Id)">
-                        Go To Post
-                    </button>
+        <h3>Posts: </h3>
+        @if (postdata != null)
+        {
+            @foreach (var post in postdata)
+            {
+                <div class="card" style="width: 18rem; border: 0.1rem solid darkblue;">
+                    <div class="card-body">
+                        <h4>@post.Title</h4>
+                        <a>post by:</a>
+                        <a>@post.WrittenBy</a>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-dark" @onclick="() => GoToPost(post.Id)">
+                            Go To Post
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <br>
+                <br>
+            }
         }
     </ul>
 </div>
+
 @code {
-    private IEnumerable<Post> postdata;
-
-    private string Initialize()
+    public ICollection<Post> postdata;
+    
+    protected override async Task OnInitializedAsync()
     {
-        Posts();
-        return "Posts: ";
-    }
-
-    private async Task Posts()
-    {
-        postdata = await postSerivce.GetAllPostsAsync();
+        try
+        {
+            postdata = await postSerivce.GetAllPostsAsync();
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 
     private async Task GoToPost(int id)

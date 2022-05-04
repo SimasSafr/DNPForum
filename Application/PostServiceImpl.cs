@@ -19,11 +19,17 @@ public class PostServiceImpl : IPostService
     public async Task<Post> GetPostByWriterAsync(string writtenBy)
     {
         ICollection<Post> post = await postDao.ReturnPostList();
-        return post.FirstOrDefault(p => writtenBy.Equals(writtenBy));
+        return post.FirstOrDefault(p => writtenBy.Equals(writtenBy))!; //is wrong
     }
 
     public async Task<Post> AddPostAsync(Post post)
     {
         return await postDao.CreatePostAsync(post);
+    }
+
+    public async Task<Post> GetPostByIdAsync(int id)
+    {
+        ICollection<Post> post = await postDao.ReturnPostList();
+        return post.FirstOrDefault(p => id.Equals(p.Id))!;
     }
 }

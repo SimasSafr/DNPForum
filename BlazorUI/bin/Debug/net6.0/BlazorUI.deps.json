@@ -11,7 +11,7 @@
           "Application": "1.0.0",
           "Contracts": "1.0.0",
           "Entities": "1.0.0",
-          "JsonDataAccess": "1.0.0"
+          "RESTClient": "1.0.0"
         },
         "runtime": {
           "BlazorUI.dll": {}
@@ -19,7 +19,6 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0",
           "Contracts": "1.0.0",
           "Entities": "1.0.0"
         },
@@ -29,7 +28,6 @@
       },
       "Contracts/1.0.0": {
         "dependencies": {
-          "ClassLibrary1": "1.0.0",
           "Entities": "1.0.0"
         },
         "runtime": {
@@ -41,13 +39,12 @@
           "Entities.dll": {}
         }
       },
-      "JsonDataAccess/1.0.0": {
+      "RESTClient/1.0.0": {
         "dependencies": {
-          "Application": "1.0.0",
-          "Entities": "1.0.0"
+          "Contracts": "1.0.0"
         },
         "runtime": {
-          "JsonDataAccess.dll": {}
+          "RESTClient.dll": {}
         }
       }
     }
@@ -73,7 +70,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "JsonDataAccess/1.0.0": {
+    "RESTClient/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
